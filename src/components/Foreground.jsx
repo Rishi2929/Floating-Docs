@@ -6,43 +6,73 @@ function Foreground() {
     const ref = useRef(null);
     const data = [
         {
-            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, optio?",
-            filesize: ".9mb",
-            close: true,
+            desc: "Create documentation for best practices in software development",
+            filesize: "N/A",
+            close: false,
             tag: {
                 isOpen: true,
-                tagTitle: "Download Now",
-                tagColor: "skyblue"
+                tagTitle: "Documentation",
+                tagColor: "orange",
             },
         },
         {
-            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, optio?",
-            filesize: ".9mb",
-            close: true,
+            desc: "Document and follow best practices for securing Node.js applications in the MERN stack",
+            filesize: "N/A",
+            close: false,
             tag: {
                 isOpen: true,
-                tagTitle: "Download Now",
-                tagColor: "green"
+                tagTitle: "Security",
+                tagColor: "cyan",
             },
         },
         {
-            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, optio?",
-            filesize: ".9mb",
-            close: true,
+            desc: "Document and follow best practices for securing Node.js applications in the MERN stack",
+            filesize: "N/A",
+            close: false,
             tag: {
                 isOpen: true,
-                tagTitle: "Download Now",
-                tagColor: "blue"
+                tagTitle: "Security",
+                tagColor: "red",
             },
         },
         {
-            desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, optio?",
-            filesize: ".9mb",
-            close: true,
+            desc: "Research and document the advantages of using the MERN stack for web development",
+            filesize: "N/A",
+            close: false,
             tag: {
                 isOpen: true,
-                tagTitle: "Download Now",
-                tagColor: "green"
+                tagTitle: "Knowledge",
+                tagColor: "green",
+            },
+        },
+        {
+            desc: "Complete daily workout routine",
+            filesize: ".7mb",
+            close: false,
+            tag: {
+                isOpen: true,
+                tagTitle: "Important",
+                tagColor: "orange",
+            },
+        },
+        {
+            desc: "Conduct research on the latest advancements in artificial intelligence",
+            filesize: "N/A",
+            close: false,
+            tag: {
+                isOpen: true,
+                tagTitle: "AI",
+                tagColor: "purple",
+            },
+        },
+        {
+            desc: "Review and implement cybersecurity measures for the company",
+            filesize: "N/A",
+            close: false,
+            tag: {
+                isOpen: true,
+                tagTitle: "Security",
+                tagColor: "blue",
             },
         },
     ]
